@@ -16,3 +16,6 @@ def the_ice_cream():
     return input("What flavor would you like? ")
 
 the_ice_cream()
+
+
+print("I don't like ice cream")
