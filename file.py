@@ -9,3 +9,10 @@ def ice_cream(ic):
         print(f"Your {flavor} ice cream is ready")
         print("Machine shutdown!")
     return wrapper
+
+
+@ice_cream
+def the_ice_cream():
+    return input("What flavor would you like? ")
+
+the_ice_cream()
